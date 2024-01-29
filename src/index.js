@@ -11,7 +11,7 @@ React.render(
     <HashRouter>
       <App />
     </HashRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
