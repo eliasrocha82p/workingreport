@@ -8,10 +8,9 @@ class App extends React.Component {
   render() {
       return (
         <div className="App">
-          <div>
             <h1>teste</h1>
           </div>
-            );
+          );
   }
 }
 
