@@ -7,16 +7,18 @@ import Home from './Home';
 class App extends React.Component {
   render() {
       return (
-        <Route
+        <HashRouter>
+    <Route
       exact
       path='/'
-      component={Home}
+      component={Dashboard}
     />
     <Route
       exact
-      path='/about'
-      component={About}
+      path='/profile'
+      component={Profile}
     />
+  </HashRouter>
           );
   }
 }
