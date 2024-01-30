@@ -11,12 +11,12 @@ class App extends React.Component {
     <Route
       exact
       path='/'
-      component={Dashboard}
+      component={Home}
     />
     <Route
       exact
-      path='/profile'
-      component={Profile}
+      path='/about'
+      component={About}
     />
   </HashRouter>
           );
