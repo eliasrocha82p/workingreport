@@ -6,7 +6,7 @@ const divStyle = {
 
 function About(){
         return (
-                <h2>About Page</h2>
+                <h2>About Page</h2>,
                     <p>This section contains information about...</p>
         )
 }
