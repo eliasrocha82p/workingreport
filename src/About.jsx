@@ -4,7 +4,7 @@ const divStyle = {
     color:'white'
 };
 
-class About(){
+function About(){
         return (
                 <h2>About Page</h2>
                 <main>
