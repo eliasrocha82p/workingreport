@@ -8,16 +8,10 @@ class App extends React.Component {
   render() {
       return (
         <HashRouter>
-    <Route
-      exact
-      path='/'
-      component={Home}
-    />
-    <Route
-      exact
-      path='/about'
-      component={About}
-    />
+    <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
   </HashRouter>
           );
   }
