@@ -7,7 +7,7 @@ import Home from './Home';
 function App() {
       return (
         <h1>
-        <About />
+        <h1>teste</h1>
         </h1>
           );
 }
